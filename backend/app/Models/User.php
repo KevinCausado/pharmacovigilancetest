@@ -30,7 +30,6 @@ class User extends Authenticatable
 
     public function alerts()
     {
-        dd('alerts works');
         return $this->hasMany(Alert::class);
     }
 }
